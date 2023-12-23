@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "timelessarsenal:item/small_bullet_casing"
+    }
+}

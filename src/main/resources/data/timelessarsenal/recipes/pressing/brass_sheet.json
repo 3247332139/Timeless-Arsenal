@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:plates/brass"
+    }
+  ],
+  "results": [
+    {
+      "item": "timelessarsenal:thin_brass_sheet"
+    }
+  ]
+}

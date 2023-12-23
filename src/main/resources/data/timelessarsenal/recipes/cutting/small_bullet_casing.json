@@ -1,0 +1,15 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+        {
+            "item": "timelessarsenal:standard_bullet_casing"
+        }
+    ],
+    "results": [
+        {
+            "item": "timelessarsenal:small_bullet_casing",
+            "count": 3
+        }
+    ],
+    "processingTime": 30
+}
