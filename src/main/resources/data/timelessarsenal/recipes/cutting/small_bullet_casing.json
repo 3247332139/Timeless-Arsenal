@@ -2,14 +2,14 @@
     "type": "create:cutting",
     "ingredients": [
         {
-            "item": "timelessarsenal:standard_bullet_casing"
+            "item": "timelessarsenal:thin_brass_sheet"
         }
     ],
     "results": [
         {
             "item": "timelessarsenal:small_bullet_casing",
-            "count": 3
+            "count": 6
         }
     ],
-    "processingTime": 30
+    "processingTime": 50
 }
