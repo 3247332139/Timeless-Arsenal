@@ -4,16 +4,16 @@ import com.bfybf.timelessarsenal.timelessarsenal;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
+import org.jetbrains.annotations.NotNull;
 
 public class ModItemGroup {
 
     public static final CreativeModeTab MAIN_GROUP = new CreativeModeTab(timelessarsenal.MOD_ID + ".main_group")
     {
         @Override
-        public ItemStack makeIcon()
+        public @NotNull ItemStack makeIcon()
         {
-            return new ItemStack(Items.DIAMOND_SWORD);
+            return new ItemStack(ModItems.LARGE_BULLET_CASING.get());
         }
     };
     private static final CreateRegistrate REGISTRATE = timelessarsenal.REGISTRATE
