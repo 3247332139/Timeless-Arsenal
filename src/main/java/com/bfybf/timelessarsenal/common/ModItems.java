@@ -40,7 +40,12 @@ public class ModItems {
             B_762x54_CASING=taggedIngredient("762x54_casing", ModTags.Items.CASING),
             B_58x42_CASING=taggedIngredient("58x42_casing", ModTags.Items.CASING),
             B_762x39_CASING=taggedIngredient("762x39_casing", ModTags.Items.CASING),
-            LAPUA338_CASING=taggedIngredient("lapua338_casing", ModTags.Items.CASING);
+            LAPUA338_CASING=taggedIngredient("lapua338_casing", ModTags.Items.CASING),
+            B_9MM_ROUND_CASING=taggedIngredient("9mm_round_casing", ModTags.Items.CASING),
+            ROUND45_CASING=taggedIngredient("round45_casing", ModTags.Items.CASING),
+            B_762x25_CASING=taggedIngredient("762x25_casing", ModTags.Items.CASING),
+            B_57x28_CASING=taggedIngredient("57x28_casing", ModTags.Items.CASING),
+            B_46x30_CASING=taggedIngredient("46x30_casing", ModTags.Items.CASING);
 
     public static final ItemEntry<SequencedAssemblyItem>
 
@@ -51,7 +56,12 @@ public class ModItems {
             INCOMPLETE_B_762x54 = sequencedIngredient("incomplete_762x54"),
             INCOMPLETE_B_58x42 = sequencedIngredient("incomplete_58x42"),
             INCOMPLETE_B_762x39 = sequencedIngredient("incomplete_762x39"),
-            INCOMPLETE_LAPUA338 = sequencedIngredient("incomplete_lapua338");
+            INCOMPLETE_LAPUA338 = sequencedIngredient("incomplete_lapua338"),
+            INCOMPLETE_B_9MM_ROUND = sequencedIngredient("incomplete_9mm_round"),
+            INCOMPLETE_ROUND45 = sequencedIngredient("incomplete_round45"),
+            INCOMPLETE_B_762x25 = sequencedIngredient("incomplete_762x25"),
+            INCOMPLETE_B_57x28 = sequencedIngredient("incomplete_57x28"),
+            INCOMPLETE_B_46x30 = sequencedIngredient("incomplete_46x30");
 
     //create shortcut-------------------------------------------
     private static ItemEntry<Item> ingredient(String name) {
