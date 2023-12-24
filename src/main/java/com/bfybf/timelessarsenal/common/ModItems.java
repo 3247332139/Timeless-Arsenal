@@ -36,18 +36,22 @@ public class ModItems {
             NATO_556_BULLET_CASING=taggedIngredient("nato_556_bullet_casing", ModTags.Items.CASING),
             BULLET_68_CASING=taggedIngredient("bullet68_casing", ModTags.Items.CASING),
             BULLET_308_CASING=taggedIngredient("bullet308_casing", ModTags.Items.CASING),
+            BULLET_WIN_30_30_CASING=taggedIngredient("win_30-30_casing", ModTags.Items.CASING),
             B_762x54_CASING=taggedIngredient("762x54_casing", ModTags.Items.CASING),
             B_58x42_CASING=taggedIngredient("58x42_casing", ModTags.Items.CASING),
-            B_762x39_CASING=taggedIngredient("762x39_casing", ModTags.Items.CASING);
+            B_762x39_CASING=taggedIngredient("762x39_casing", ModTags.Items.CASING),
+            LAPUA338_CASING=taggedIngredient("lapua338_casing", ModTags.Items.CASING);
 
     public static final ItemEntry<SequencedAssemblyItem>
 
             INCOMPLETE_NATO_556_BULLET = sequencedIngredient("incomplete_nato_556_bullet"),
             INCOMPLETE_BULLET_68 = sequencedIngredient("incomplete_bullet68"),
             INCOMPLETE_BULLET_308 = sequencedIngredient("incomplete_bullet308"),
+            INCOMPLETE_WIN_30_30 = sequencedIngredient("incomplete_win_30-30"),
             INCOMPLETE_B_762x54 = sequencedIngredient("incomplete_762x54"),
             INCOMPLETE_B_58x42 = sequencedIngredient("incomplete_58x42"),
-             INCOMPLETE_B_762x39 = sequencedIngredient("incomplete_762x39");
+            INCOMPLETE_B_762x39 = sequencedIngredient("incomplete_762x39"),
+            INCOMPLETE_LAPUA338 = sequencedIngredient("incomplete_lapua338");
 
     //create shortcut-------------------------------------------
     private static ItemEntry<Item> ingredient(String name) {

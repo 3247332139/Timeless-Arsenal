@@ -1,0 +1,65 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "timelessarsenal:lapua338_casing"
+    },
+    "transitionalItem": {
+        "item": "timelessarsenal:incomplete_lapua338"
+    },
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "timelessarsenal:incomplete_lapua338"
+                },
+                {
+                    "tag": "forge:gunpowder"
+                }
+            ],
+            "results": [
+                {
+                    "item": "timelessarsenal:incomplete_lapua338"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "timelessarsenal:incomplete_lapua338"
+                },
+                {
+                    "tag": "forge:gunpowder"
+                }
+            ],
+            "results": [
+                {
+                    "item": "timelessarsenal:incomplete_lapua338"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "timelessarsenal:incomplete_lapua338"
+                },
+                {
+                    "item": "timelessarsenal:bullet_projectile"
+                }
+            ],
+            "results": [
+                {
+                    "item": "timelessarsenal:incomplete_lapua338"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "item": "tac:bullet_308"
+        }
+    ],
+    "loops": 1
+}

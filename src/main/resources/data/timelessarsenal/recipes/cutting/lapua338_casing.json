@@ -1,0 +1,15 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+        {
+            "item": "timelessarsenal:large_bullet_casing"
+        }
+    ],
+    "results": [
+        {
+            "item": "timelessarsenal:lapua338_casing",
+            "count": 1
+        }
+    ],
+    "processingTime": 100
+}

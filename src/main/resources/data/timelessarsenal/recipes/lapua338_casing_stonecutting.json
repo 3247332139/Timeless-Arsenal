@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "timelessarsenal:large_bullet_casing"
+    },
+    "result": "timelessarsenal:lapua338_casing",
+    "count": 1
+}
