@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "timelessarsenal:thin_brass_sheet"
+    },
+    "result": "timelessarsenal:small_bullet_casing",
+    "count": 6
+}

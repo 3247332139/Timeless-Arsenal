@@ -1,0 +1,15 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+        {
+            "tag": "forge:nuggets/steel"
+        }
+    ],
+    "results": [
+        {
+            "item": "timelessarsenal:bullet_projectile",
+            "count": 2
+        }
+    ],
+    "processingTime": 80
+}

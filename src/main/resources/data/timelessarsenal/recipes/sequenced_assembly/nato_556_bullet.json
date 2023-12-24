@@ -1,0 +1,65 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "timelessarsenal:nato_556_bullet_casing"
+    },
+    "transitionalItem": {
+        "item": "timelessarsenal:incomplete_nato_556_bullet"
+    },
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "timelessarsenal:incomplete_nato_556_bullet"
+                },
+                {
+                    "item": "timelessarsenal:small_pile_of_gunpowder"
+                }
+            ],
+            "results": [
+                {
+                    "item": "timelessarsenal:incomplete_nato_556_bullet"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "timelessarsenal:incomplete_nato_556_bullet"
+                },
+                {
+                    "item": "timelessarsenal:small_pile_of_gunpowder"
+                }
+            ],
+            "results": [
+                {
+                    "item": "timelessarsenal:incomplete_nato_556_bullet"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "timelessarsenal:incomplete_nato_556_bullet"
+                },
+                {
+                    "item": "timelessarsenal:bullet_projectile"
+                }
+            ],
+            "results": [
+                {
+                    "item": "timelessarsenal:incomplete_nato_556_bullet"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "item": "tac:nato_556_bullet"
+        }
+    ],
+    "loops": 1
+}

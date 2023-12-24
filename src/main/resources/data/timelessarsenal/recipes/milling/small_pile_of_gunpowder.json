@@ -1,0 +1,15 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag":"forge:gunpowder"
+        }
+    ],
+    "results": [
+        {
+            "item": "timelessarsenal:small_pile_of_gunpowder",
+            "count": 4
+        }
+    ],
+    "processingTime": 20
+}

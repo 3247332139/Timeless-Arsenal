@@ -1,0 +1,15 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+        {
+            "item": "timelessarsenal:steel_standard_bullet_casing"
+        }
+    ],
+    "results": [
+        {
+            "item": "timelessarsenal:762x39_casing",
+            "count": 1
+        }
+    ],
+    "processingTime": 110
+}

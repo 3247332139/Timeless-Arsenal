@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:nuggets/steel"
+        }
+    ],
+    "result": {
+        "item": "timelessarsenal:bullet_projectile",
+        "count": 2
+    }
+}

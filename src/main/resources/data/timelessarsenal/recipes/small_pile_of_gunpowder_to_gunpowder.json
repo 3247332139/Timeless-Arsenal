@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "timelessarsenal:small_pile_of_gunpowder"
+        },
+        {
+            "item": "timelessarsenal:small_pile_of_gunpowder"
+        },
+        {
+            "item": "timelessarsenal:small_pile_of_gunpowder"
+        },
+        {
+            "item": "timelessarsenal:small_pile_of_gunpowder"
+        }
+    ],
+    "result": {
+        "tag":"forge:gunpowder",
+        "count": 1
+    }
+}
