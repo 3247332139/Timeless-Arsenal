@@ -1,0 +1,49 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "timelessarsenal:round45_casing"
+    },
+    "transitionalItem": {
+        "item": "timelessarsenal:incomplete_round45"
+    },
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "timelessarsenal:incomplete_round45"
+                },
+                {
+                    "item": "timelessarsenal:small_pile_of_gunpowder"
+                }
+            ],
+            "results": [
+                {
+                    "item": "timelessarsenal:incomplete_round45"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "timelessarsenal:incomplete_round45"
+                },
+                {
+                    "item": "timelessarsenal:bullet_projectile"
+                }
+            ],
+            "results": [
+                {
+                    "item": "timelessarsenal:incomplete_round45"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "item": "tac:round45"
+        }
+    ],
+    "loops": 1
+}

@@ -1,33 +1,17 @@
 {
     "type": "create:sequenced_assembly",
     "ingredient": {
-        "item": "timelessarsenal:win_30-30_casing"
+        "item": "timelessarsenal:46x30_casing"
     },
     "transitionalItem": {
-        "item": "timelessarsenal:incomplete_win_30-30"
+        "item": "timelessarsenal:incomplete_46x30"
     },
     "sequence": [
         {
             "type": "create:deploying",
             "ingredients": [
                 {
-                    "item": "timelessarsenal:incomplete_win_30-30"
-                },
-                {
-                    "tag": "forge:gunpowder"
-                }
-            ],
-            "results": [
-                {
-                    "item": "timelessarsenal:incomplete_win_30-30"
-                }
-            ]
-        },
-        {
-            "type": "create:deploying",
-            "ingredients": [
-                {
-                    "item": "timelessarsenal:incomplete_win_30-30"
+                    "item": "timelessarsenal:incomplete_46x30"
                 },
                 {
                     "item": "timelessarsenal:small_pile_of_gunpowder"
@@ -35,7 +19,7 @@
             ],
             "results": [
                 {
-                    "item": "timelessarsenal:incomplete_win_30-30"
+                    "item": "timelessarsenal:incomplete_46x30"
                 }
             ]
         },
@@ -43,7 +27,23 @@
             "type": "create:deploying",
             "ingredients": [
                 {
-                    "item": "timelessarsenal:incomplete_win_30-30"
+                    "item": "timelessarsenal:incomplete_46x30"
+                },
+                {
+                    "item": "timelessarsenal:small_pile_of_gunpowder"
+                }
+            ],
+            "results": [
+                {
+                    "item": "timelessarsenal:incomplete_46x30"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "timelessarsenal:incomplete_46x30"
                 },
                 {
                     "item": "timelessarsenal:bullet_projectile"
@@ -51,14 +51,14 @@
             ],
             "results": [
                 {
-                    "item": "timelessarsenal:incomplete_win_30-30"
+                    "item": "timelessarsenal:incomplete_46x30"
                 }
             ]
         }
     ],
     "results": [
         {
-            "item": "tac:win_30-30"
+            "item": "tac:46x30"
         }
     ],
     "loops": 1

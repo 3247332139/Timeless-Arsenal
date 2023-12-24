@@ -2,14 +2,14 @@
     "type": "create:cutting",
     "ingredients": [
         {
-            "item": "timelessarsenal:large_bullet_casing"
+            "item": "timelessarsenal:small_bullet_casing"
         }
     ],
     "results": [
         {
-            "item": "timelessarsenal:win_30-30_casing",
+            "item": "timelessarsenal:46x30_casing",
             "count": 1
         }
     ],
-    "processingTime": 80
+    "processingTime": 30
 }
