@@ -1,0 +1,49 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "timelessarsenal:762x25_casing"
+    },
+    "transitionalItem": {
+        "item": "timelessarsenal:incomplete_762x25"
+    },
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "timelessarsenal:incomplete_762x25"
+                },
+                {
+                    "item": "timelessarsenal:small_pile_of_gunpowder"
+                }
+            ],
+            "results": [
+                {
+                    "item": "timelessarsenal:incomplete_762x25"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "timelessarsenal:incomplete_762x25"
+                },
+                {
+                    "item": "timelessarsenal:bullet_projectile"
+                }
+            ],
+            "results": [
+                {
+                    "item": "timelessarsenal:incomplete_762x25"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "item": "tac:762x25"
+        }
+    ],
+    "loops": 1
+}

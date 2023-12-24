@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "timelessarsenal:small_bullet_casing"
+    },
+    "result": "timelessarsenal:round45_casing",
+    "count": 1
+}
