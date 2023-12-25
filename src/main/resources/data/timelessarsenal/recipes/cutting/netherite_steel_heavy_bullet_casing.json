@@ -1,0 +1,15 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+        {
+            "item": "timelessarsenal:thin_netherite_steel_sheet"
+        }
+    ],
+    "results": [
+        {
+            "item": "timelessarsenal:netherite_steel_heavy_bullet_casing",
+            "count": 1
+        }
+    ],
+    "processingTime": 200
+}

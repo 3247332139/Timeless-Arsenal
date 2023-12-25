@@ -1,0 +1,49 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "timelessarsenal:b_magnum_casing"
+    },
+    "transitionalItem": {
+        "item": "timelessarsenal:incomplete_b_magnum"
+    },
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "timelessarsenal:incomplete_b_magnum"
+                },
+                {
+                    "tag": "forge:gunpowder"
+                }
+            ],
+            "results": [
+                {
+                    "item": "timelessarsenal:incomplete_b_magnum"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "timelessarsenal:incomplete_b_magnum"
+                },
+                {
+                    "item": "timelessarsenal:bullet_projectile"
+                }
+            ],
+            "results": [
+                {
+                    "item": "timelessarsenal:incomplete_b_magnum"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "item": "tac:b_magnum"
+        }
+    ],
+    "loops": 1
+}

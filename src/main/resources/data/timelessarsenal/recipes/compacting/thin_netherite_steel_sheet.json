@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:plates/steel"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "results": [
+    {
+      "item": "timelessarsenal:thin_netherite_steel_sheet"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

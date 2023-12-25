@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "timelessarsenal:thin_netherite_steel_sheet"
+    },
+    "result": "timelessarsenal:netherite_steel_heavy_bullet_casing",
+    "count": 1
+}
