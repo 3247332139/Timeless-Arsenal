@@ -23,9 +23,9 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, timelessarsenal.MOD_ID);
 
     public static final ItemEntry<Item>
-            THIN_COPPER_SHEET = taggedIngredient("thin_brass_sheet", ModTags.Items.THIN_SHEET),
-            THIN_STEEL_SHEET = taggedIngredient("thin_steel_sheet", ModTags.Items.THIN_SHEET),
-            THIN_NETHERITE_STEEL_SHEET = taggedIngredient("thin_netherite_steel_sheet", ModTags.Items.THIN_SHEET),
+            THIN_COPPER_SHEET = taggedIngredient("thin_brass_sheet"),
+            THIN_STEEL_SHEET = taggedIngredient("thin_steel_sheet"),
+            THIN_NETHERITE_STEEL_SHEET = taggedIngredient("thin_netherite_steel_sheet"),
             STEEL_STANDARD_BULLET_CASING=taggedIngredient("steel_standard_bullet_casing"),
             LARGE_BULLET_CASING=taggedIngredient("large_bullet_casing"),
             NETHERITE_STEEL_HEAVY_BULLET_CASING=taggedIngredient("netherite_steel_heavy_bullet_casing"),
@@ -35,22 +35,22 @@ public class ModItems {
             SMALL_PILE_OF_GUNPOWDER=taggedIngredient("small_pile_of_gunpowder");
 
     public static final ItemEntry<Item>
-            NATO_556_BULLET_CASING=taggedIngredient("nato_556_bullet_casing", ModTags.Items.CASING),
-            BULLET_68_CASING=taggedIngredient("bullet68_casing", ModTags.Items.CASING),
-            BULLET_308_CASING=taggedIngredient("bullet308_casing", ModTags.Items.CASING),
-            BULLET_WIN_30_30_CASING=taggedIngredient("win_30-30_casing", ModTags.Items.CASING),
-            B_762x54_CASING=taggedIngredient("762x54_casing", ModTags.Items.CASING),
-            B_58x42_CASING=taggedIngredient("58x42_casing", ModTags.Items.CASING),
-            B_762x39_CASING=taggedIngredient("762x39_casing", ModTags.Items.CASING),
-            LAPUA338_CASING=taggedIngredient("lapua338_casing", ModTags.Items.CASING),
-            B_9MM_ROUND_CASING=taggedIngredient("9mm_round_casing", ModTags.Items.CASING),
-            ROUND45_CASING=taggedIngredient("round45_casing", ModTags.Items.CASING),
-            B_762x25_CASING=taggedIngredient("762x25_casing", ModTags.Items.CASING),
-            B_57x28_CASING=taggedIngredient("57x28_casing", ModTags.Items.CASING),
-            B_46x30_CASING=taggedIngredient("46x30_casing", ModTags.Items.CASING),
-            AE50_CASING=taggedIngredient("ae50_casing", ModTags.Items.CASING),
-            B_MAGNUM_CASING=taggedIngredient("b_magnum_casing", ModTags.Items.CASING),
-            B_50BMG_CASING=taggedIngredient("50bmg_casing", ModTags.Items.CASING);
+            NATO_556_BULLET_CASING=taggedIngredient("nato_556_bullet_casing"),
+            BULLET_68_CASING=taggedIngredient("bullet68_casing"),
+            BULLET_308_CASING=taggedIngredient("bullet308_casing"),
+            BULLET_WIN_30_30_CASING=taggedIngredient("win_30-30_casing"),
+            B_762x54_CASING=taggedIngredient("762x54_casing"),
+            B_58x42_CASING=taggedIngredient("58x42_casing"),
+            B_762x39_CASING=taggedIngredient("762x39_casing"),
+            LAPUA338_CASING=taggedIngredient("lapua338_casing"),
+            B_9MM_ROUND_CASING=taggedIngredient("9mm_round_casing"),
+            ROUND45_CASING=taggedIngredient("round45_casing"),
+            B_762x25_CASING=taggedIngredient("762x25_casing"),
+            B_57x28_CASING=taggedIngredient("57x28_casing"),
+            B_46x30_CASING=taggedIngredient("46x30_casing"),
+            AE50_CASING=taggedIngredient("ae50_casing"),
+            B_MAGNUM_CASING=taggedIngredient("b_magnum_casing"),
+            B_50BMG_CASING=taggedIngredient("50bmg_casing");
 
 
 
