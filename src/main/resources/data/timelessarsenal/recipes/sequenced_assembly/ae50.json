@@ -1,0 +1,49 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "timelessarsenal:ae50_casing"
+    },
+    "transitionalItem": {
+        "item": "timelessarsenal:incomplete_ae50"
+    },
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "timelessarsenal:incomplete_ae50"
+                },
+                {
+                    "tag": "forge:gunpowder"
+                }
+            ],
+            "results": [
+                {
+                    "item": "timelessarsenal:incomplete_ae50"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "timelessarsenal:incomplete_ae50"
+                },
+                {
+                    "item": "timelessarsenal:bullet_projectile"
+                }
+            ],
+            "results": [
+                {
+                    "item": "timelessarsenal:incomplete_ae50"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "item": "tac:ae50"
+        }
+    ],
+    "loops": 1
+}

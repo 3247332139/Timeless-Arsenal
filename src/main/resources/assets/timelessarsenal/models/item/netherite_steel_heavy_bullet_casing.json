@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "timelessarsenal:item/netherite_steel_heavy_bullet_casing"
+    }
+}

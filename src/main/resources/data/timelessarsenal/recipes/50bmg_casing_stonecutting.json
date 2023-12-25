@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "timelessarsenal:netherite_steel_heavy_bullet_casing"
+    },
+    "result": "timelessarsenal:50bmg_casing",
+    "count": 1
+}

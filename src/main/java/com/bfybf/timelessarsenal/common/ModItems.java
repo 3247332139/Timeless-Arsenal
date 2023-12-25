@@ -25,8 +25,10 @@ public class ModItems {
     public static final ItemEntry<Item>
             THIN_COPPER_SHEET = taggedIngredient("thin_brass_sheet", ModTags.Items.THIN_SHEET),
             THIN_STEEL_SHEET = taggedIngredient("thin_steel_sheet", ModTags.Items.THIN_SHEET),
+            THIN_NETHERITE_STEEL_SHEET = taggedIngredient("thin_netherite_steel_sheet", ModTags.Items.THIN_SHEET),
             STEEL_STANDARD_BULLET_CASING=taggedIngredient("steel_standard_bullet_casing"),
             LARGE_BULLET_CASING=taggedIngredient("large_bullet_casing"),
+            NETHERITE_STEEL_HEAVY_BULLET_CASING=taggedIngredient("netherite_steel_heavy_bullet_casing"),
             STANDARD_BULLET_CASING=taggedIngredient("standard_bullet_casing"),
             SMALL_BULLET_CASING=taggedIngredient("small_bullet_casing"),
             BULLET_PROJECTILE=taggedIngredient("bullet_projectile"),
@@ -45,7 +47,12 @@ public class ModItems {
             ROUND45_CASING=taggedIngredient("round45_casing", ModTags.Items.CASING),
             B_762x25_CASING=taggedIngredient("762x25_casing", ModTags.Items.CASING),
             B_57x28_CASING=taggedIngredient("57x28_casing", ModTags.Items.CASING),
-            B_46x30_CASING=taggedIngredient("46x30_casing", ModTags.Items.CASING);
+            B_46x30_CASING=taggedIngredient("46x30_casing", ModTags.Items.CASING),
+            AE50_CASING=taggedIngredient("ae50_casing", ModTags.Items.CASING),
+            B_MAGNUM_CASING=taggedIngredient("b_magnum_casing", ModTags.Items.CASING),
+            B_50BMG_CASING=taggedIngredient("50bmg_casing", ModTags.Items.CASING);
+
+
 
     public static final ItemEntry<SequencedAssemblyItem>
 
@@ -61,7 +68,10 @@ public class ModItems {
             INCOMPLETE_ROUND45 = sequencedIngredient("incomplete_round45"),
             INCOMPLETE_B_762x25 = sequencedIngredient("incomplete_762x25"),
             INCOMPLETE_B_57x28 = sequencedIngredient("incomplete_57x28"),
-            INCOMPLETE_B_46x30 = sequencedIngredient("incomplete_46x30");
+            INCOMPLETE_B_46x30 = sequencedIngredient("incomplete_46x30"),
+            INCOMPLETE_AE50_CASING = sequencedIngredient("incomplete_ae50"),
+            INCOMPLETE_B_MAGNUM = sequencedIngredient("incomplete_b_magnum"),
+            INCOMPLETE_B_50BMG = sequencedIngredient("incomplete_50bmg");
 
     //create shortcut-------------------------------------------
     private static ItemEntry<Item> ingredient(String name) {
