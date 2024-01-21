@@ -1,0 +1,27 @@
+{
+    "type": "tac:workbench",
+    "materials": [
+        {
+            "item": {
+                "item": "timelessarsenal:steel_standard_bullet_casing"
+            },
+            "count": 60
+        },
+        {
+            "item": {
+                "tag": "forge:gunpowder"
+            },
+            "count": 30
+        },
+        {
+            "item": {
+                "item": "timelessarsenal:bullet_projectile"
+            },
+            "count": 60
+        }
+    ],
+    "result": {
+        "item": "tac:58x42",
+        "count": 60
+    }
+}

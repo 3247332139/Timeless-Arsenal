@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "aba",
+        "aba",
+        " c "
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:paper"
+        },
+        "b": {
+            "tag": "forge:dyes/red"
+        },
+        "c": {
+            "item": "timelessarsenal:thin_brass_sheet"
+        }
+    },
+    "result": {
+        "item": "timelessarsenal:shotgun_shell",
+        "count": 3
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "type": "tac:workbench",
+    "materials": [
+        {
+            "item": {
+                "item": "timelessarsenal:standard_bullet_casing"
+            },
+            "count": 60
+        },
+        {
+            "item": {
+                "tag": "forge:gunpowder"
+            },
+            "count": 30
+        },
+        {
+            "item": {
+                "item": "timelessarsenal:bullet_projectile"
+            },
+            "count": 60
+        }
+    ],
+    "result": {
+        "item": "tac:nato_556_bullet",
+        "count": 60
+    }
+}

@@ -22,7 +22,7 @@ apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'org.parchmentmc.librarian.forgegradle'
 
-version = '0.1'
+version = '0.2'
 group = 'com.bfybf.timelessarsenal' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'timelessarsenal'
 
@@ -170,9 +170,9 @@ dependencies {
     implementation fg.deobf("com.simibubi.create:create-1.18.2:0.5.1.e-318:slim") { transitive = false }
     implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-1.18.2:0.6.10-105")
     implementation fg.deobf("com.tterrag.registrate:Registrate:MC1.18.2-1.1.3")
-    implementation fg.deobf("curse.maven:alloyed-564792:4569023")
     implementation fg.deobf("curse.maven:timeless-and-classic-guns-tac-491264:4867165")
-    implementation fg.deobf("curse.maven:framework-549225:4613856")
+    runtimeOnly fg.deobf("curse.maven:framework-549225:4613856")
+    runtimeOnly fg.deobf("curse.maven:alloyed-564792:4569023")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.

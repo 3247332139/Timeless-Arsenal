@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "timelessarsenal:item/win_30-30_casing"
+    }
+}

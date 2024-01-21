@@ -2,18 +2,14 @@ package com.bfybf.timelessarsenal.common;
 
 
 import com.bfybf.timelessarsenal.timelessarsenal;
-import com.simibubi.create.AllTags;
 import com.simibubi.create.content.processing.sequenced.SequencedAssemblyItem;
 import com.simibubi.create.foundation.data.CreateRegistrate;
-import com.simibubi.create.foundation.data.recipe.CompatMetals;
-import com.simibubi.create.foundation.item.TagDependentIngredientItem;
 import com.tterrag.registrate.util.entry.ItemEntry;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-import static com.simibubi.create.AllTags.AllItemTags.CRUSHED_RAW_MATERIALS;
 
 
 public class ModItems {
@@ -23,34 +19,35 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, timelessarsenal.MOD_ID);
 
     public static final ItemEntry<Item>
-            THIN_COPPER_SHEET = taggedIngredient("thin_brass_sheet"),
-            THIN_STEEL_SHEET = taggedIngredient("thin_steel_sheet"),
-            THIN_NETHERITE_STEEL_SHEET = taggedIngredient("thin_netherite_steel_sheet"),
-            STEEL_STANDARD_BULLET_CASING=taggedIngredient("steel_standard_bullet_casing"),
-            LARGE_BULLET_CASING=taggedIngredient("large_bullet_casing"),
-            NETHERITE_STEEL_HEAVY_BULLET_CASING=taggedIngredient("netherite_steel_heavy_bullet_casing"),
-            STANDARD_BULLET_CASING=taggedIngredient("standard_bullet_casing"),
-            SMALL_BULLET_CASING=taggedIngredient("small_bullet_casing"),
-            BULLET_PROJECTILE=taggedIngredient("bullet_projectile"),
-            SMALL_PILE_OF_GUNPOWDER=taggedIngredient("small_pile_of_gunpowder");
+            THIN_COPPER_SHEET = ingredient("thin_brass_sheet"),
+            THIN_STEEL_SHEET = ingredient("thin_steel_sheet"),
+            THIN_NETHERITE_STEEL_SHEET = ingredient("thin_netherite_steel_sheet"),
+            STEEL_STANDARD_BULLET_CASING=ingredient("steel_standard_bullet_casing"),
+            LARGE_BULLET_CASING=ingredient("large_bullet_casing"),
+            NETHERITE_STEEL_HEAVY_BULLET_CASING=ingredient("netherite_steel_heavy_bullet_casing"),
+            STANDARD_BULLET_CASING=ingredient("standard_bullet_casing"),
+            SMALL_BULLET_CASING=ingredient("small_bullet_casing"),
+            BULLET_PROJECTILE=ingredient("bullet_projectile"),
+            SMALL_PILE_OF_GUNPOWDER=ingredient("small_pile_of_gunpowder"),
+            SHOTGUN_SHELL=ingredient("shotgun_shell");
 
     public static final ItemEntry<Item>
-            NATO_556_BULLET_CASING=taggedIngredient("nato_556_bullet_casing"),
-            BULLET_68_CASING=taggedIngredient("bullet68_casing"),
-            BULLET_308_CASING=taggedIngredient("bullet308_casing"),
-            BULLET_WIN_30_30_CASING=taggedIngredient("win_30-30_casing"),
-            B_762x54_CASING=taggedIngredient("762x54_casing"),
-            B_58x42_CASING=taggedIngredient("58x42_casing"),
-            B_762x39_CASING=taggedIngredient("762x39_casing"),
-            LAPUA338_CASING=taggedIngredient("lapua338_casing"),
-            B_9MM_ROUND_CASING=taggedIngredient("9mm_round_casing"),
-            ROUND45_CASING=taggedIngredient("round45_casing"),
-            B_762x25_CASING=taggedIngredient("762x25_casing"),
-            B_57x28_CASING=taggedIngredient("57x28_casing"),
-            B_46x30_CASING=taggedIngredient("46x30_casing"),
-            AE50_CASING=taggedIngredient("ae50_casing"),
-            B_MAGNUM_CASING=taggedIngredient("b_magnum_casing"),
-            B_50BMG_CASING=taggedIngredient("50bmg_casing");
+            NATO_556_BULLET_CASING=ingredient("nato_556_bullet_casing"),
+            BULLET_68_CASING=ingredient("bullet68_casing"),
+            BULLET_308_CASING=ingredient("bullet308_casing"),
+            BULLET_WIN_30_30_CASING=ingredient("win_30-30_casing"),
+            B_762x54_CASING=ingredient("762x54_casing"),
+            B_58x42_CASING=ingredient("58x42_casing"),
+            B_762x39_CASING=ingredient("762x39_casing"),
+            LAPUA338_CASING=ingredient("lapua338_casing"),
+            B_9MM_ROUND_CASING=ingredient("9mm_round_casing"),
+            ROUND45_CASING=ingredient("round45_casing"),
+            B_762x25_CASING=ingredient("762x25_casing"),
+            B_57x28_CASING=ingredient("57x28_casing"),
+            B_46x30_CASING=ingredient("46x30_casing"),
+            AE50_CASING=ingredient("ae50_casing"),
+            B_MAGNUM_CASING=ingredient("b_magnum_casing"),
+            B_50BMG_CASING=ingredient("50bmg_casing");
 
 
 
@@ -89,15 +86,6 @@ public class ModItems {
     private static ItemEntry<Item> taggedIngredient(String name, TagKey<Item>... tags) {
         return REGISTRATE.item(name, Item::new)
                 .tag(tags)
-                .register();
-    }
-
-    private static ItemEntry<TagDependentIngredientItem> compatCrushedOre(CompatMetals metal) {
-        String metalName = metal.getName();
-        return REGISTRATE
-                .item("crushed_raw_" + metalName,
-                        props -> new TagDependentIngredientItem(props, AllTags.forgeItemTag("ores/" + metalName)))
-                .tag(CRUSHED_RAW_MATERIALS.tag)
                 .register();
     }
 }
