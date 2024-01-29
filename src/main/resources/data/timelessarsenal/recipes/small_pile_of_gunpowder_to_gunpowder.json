@@ -15,7 +15,7 @@
         }
     ],
     "result": {
-        "tag":"forge:gunpowder",
+        "item":"forge:gunpowder",
         "count": 1
     }
 }
