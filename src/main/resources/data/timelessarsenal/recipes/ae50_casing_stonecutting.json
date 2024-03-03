@@ -1,7 +1,7 @@
 {
     "type": "minecraft:stonecutting",
     "ingredient": {
-        "item": "timelessarsenal:small_bullet_casing"
+        "tag": "timelessarsenal:casings_small"
     },
     "result": "timelessarsenal:ae50_casing",
     "count": 1

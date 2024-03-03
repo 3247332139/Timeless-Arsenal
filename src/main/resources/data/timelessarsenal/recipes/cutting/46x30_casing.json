@@ -2,7 +2,7 @@
     "type": "create:cutting",
     "ingredients": [
         {
-            "item": "timelessarsenal:small_bullet_casing"
+            "tag": "timelessarsenal:casings_small"
         }
     ],
     "results": [
